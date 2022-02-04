@@ -282,6 +282,8 @@
               <buildArgs>
                 <buildArg>-H:IncludeResourceBundles=com.sun.tools.javac.resources.compiler</buildArg>
                 <buildArg>--no-fallback</buildArg>
+                <buildArg>--allow-incomplete-classpath</buildArg>
+                <buildArg>--gc=epsilon</buildArg>
               </buildArgs>
             </configuration>
           </plugin>
